@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LasicPredispit4</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slanje">Slanje poruke</string>
+    <string name="poslane">Poslane poruke</string>
+    <string name="primljene">Primljene poruke</string>
+    <string name="sms">Pošalji SMS</string>
+    <string name="broj">Upišite broj</string>
+    <string name="upisite_sms">Upišite poruku</string>
+    <string name="sto_zelite">Jeste li sigurni da želite izaći</string>
+    <string name="odabir_izlaska">Potvrdite</string>
+</resources>

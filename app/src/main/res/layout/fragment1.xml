@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1">
+
+    <EditText
+        android:id="@+id/etBroj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/broj"></EditText>
+
+    <EditText
+        android:id="@+id/etPoruka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="160"
+        android:lines="5"
+        android:gravity="start|top"
+        android:hint="@string/upisite_sms"></EditText>
+
+    <Button
+        android:id="@+id/btnSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms"
+        android:layout_gravity="center_horizontal"></Button>
+
+
+</LinearLayout>
